@@ -12,4 +12,4 @@ in the future:
   * maybe some skins and flexible GUI
   * whatever... its only for my education in javaFX
   
-![print screen](irkp.github.com/fxSimpleCalc/img/calc.png)
+![print screen](img/calc.png)

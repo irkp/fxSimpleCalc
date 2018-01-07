@@ -7,9 +7,9 @@ v.0.1:
   * simple layout created using fxml & css
   
   
-in theure:
+in the future:
   * protection against entering text
   * maybe some skins and flexible GUI
   * whatever... its only for my education in javaFX
   
-  
+![print screen](irkp.github.com/fxSimpleCalc/img/calc.png)

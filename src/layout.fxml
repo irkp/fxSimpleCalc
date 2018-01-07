@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<VBox styleClass="box"
+      fx:controller="Controller" xmlns:fx="http://javafx.com/fxml">
+
+    <stylesheets>
+        <URL value="@Style.css"/>
+    </stylesheets>
+
+    <TextField fx:id="result" />
+
+    <HBox styleClass="box">
+        <Button text="7" onAction="#pressNumber"/>
+        <Button text="8" onAction="#pressNumber"/>
+        <Button text="9" onAction="#pressNumber"/>
+        <Button text="/" onAction="#pressOperator"/>
+    </HBox>
+
+    <HBox styleClass="box">
+        <Button text="4" onAction="#pressNumber"/>
+        <Button text="5" onAction="#pressNumber"/>
+        <Button text="6" onAction="#pressNumber"/>
+        <Button text="*" onAction="#pressOperator"/>
+    </HBox>
+
+    <HBox styleClass="box">
+        <Button text="1" onAction="#pressNumber"/>
+        <Button text="2" onAction="#pressNumber"/>
+        <Button text="3" onAction="#pressNumber"/>
+        <Button text="-" onAction="#pressOperator"/>
+    </HBox>
+
+    <HBox styleClass="box">
+        <Button text="0" styleClass="zeroButton" onAction="#pressNumber"/>
+        <Button text="=" onAction="#pressOperator"/>
+        <Button text="+" onAction="#pressOperator"/>
+    </HBox>
+
+</VBox>

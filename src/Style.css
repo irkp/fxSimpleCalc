@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color: #353535;
+    -fx-pref-width: 330;
+    -fx-pref-height: 300;
+}
+
+.text-field {
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-alignment: baseline-right;
+    -fx-pref-height: 50;
+    -fx-max-width: 300;
+    -fx-background-color: #878787;
+    -fx-border-color: white;
+    -fx-text-alignment: right;
+    -fx-font-size: 24;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Tahoma";
+    -fx-background-color: linear-gradient(#353535, #212121);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+    -fx-max-width: 65;
+    -fx-min-width: 65;
+    -fx-pref-height: 50;
+    -fx-font-size: 20;
+}
+
+.zeroButton {
+    -fx-min-width: 140;
+    -fx-max-width: 140;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#505050, #878787);
+}
+
+.box{
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}

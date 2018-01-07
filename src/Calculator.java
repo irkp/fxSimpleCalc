@@ -19,7 +19,7 @@ class Calculator {
                 if (BigDecimal.ZERO.equals(secondNumber)){
                     throw new IllegalArgumentException("Argument 'divisor' is 0");
                 }
-                return firstNumber.divide(secondNumber, MathContext.UNLIMITED);
+                return firstNumber.divide(secondNumber, MathContext.DECIMAL64);
         }
         log.info("Unknown operator - " + operator);
         return BigDecimal.ZERO;
